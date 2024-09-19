@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestFE</title>
+    <script src="assets/js/carousel.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-content">
+          <div class="header-logo">
+            <img src="assets/images/logo.png" alt="Logo" />
+          </div>
+          <!-- toggle  menu -->
+          <div class="header-toggle">
+            <span class="toggle-icon"
+              ><img src="assets/images/toggle-menu.png"
+            /></span>
+          </div>
+
+          <div class="header-nav">
+            <a href="#">BỘ SƯU TẬP</a>
+            <a href="#">VỀ CHÚNG TÔI</a>
+            <a href="#">MUA SẮM</a>
+            <a href="#">TIN TỨC</a>
+            <a href="#">CỬA HÀNG</a>
+            <a href="#">TUYỂN DỤNG</a>
+            <a href="#">LIÊN HỆ</a>
+          </div>
+          <div class="header-lang">
+            <span>VIE</span>
+            <span class="lang-br"></span>
+            <span>ENG</span>
+            <div class="header-icons">
+              <span class="icon-search">
+                <img src="assets/images/icon-search.png" />
+              </span>
+              <span class="icon-cart">
+                <img src="assets/images/icon-cart.png" />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="carousel-container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-item-pc">
+            <img
+              src="assets/images/banner1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Live better and healthier</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-pc">
+            <img
+              src="assets/images/banner1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Live better and healthier</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-pc">
+            <img
+              src="assets/images/banner1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Live better and healthier</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-pc">
+            <img
+              src="assets/images/banner1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Live better and healthier</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="icon-prev">
+            <svg
+              width="61"
+              height="120"
+              viewBox="0 0 61 120"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32275 1.45825L59.9998 60.1353L1.32275 118.812"
+                stroke="#F2F2F2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="icon-next">
+            <svg
+              width="61"
+              height="120"
+              viewBox="0 0 61 120"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32275 1.45825L59.9998 60.1353L1.32275 118.812"
+                stroke="#F2F2F2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <button class="btn-lean-more">
+        <p>Learn more</p>
+        <span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_2085_101)">
+              <path
+                d="M0 10H16.6667"
+                stroke="#222222"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                stroke="#222222"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2085_101">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </span>
+      </button>
+
+      <p class="text-carousel">scroll down</p>
+    </section>
+
+    <section class="content-introduce">
+      <div class="content">
+        <div class="introduce-content">
+          <h2 class="introduce-title">OGAWA</h2>
+          <p class="introduce-description">
+            OGAWA takes pride in creating revolutionary ideas to innovate and
+            exceptional engineering practices to deliver the ultimate
+            rejuvenating experiences.
+          </p>
+          <div class="introduce-image">
+            <img src="assets/images/product-1.png" alt="product" />
+          </div>
+
+          <div class="introduce-backgr">
+            <img src="assets/images/bg-product1.png" alt="product" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <div class="product-wrapper">
+        <div class="image-product">
+          <img src="assets/images/product-2.png" alt="product" />
+        </div>
+        <div class="content-container">
+          <h2 class="product-title">MASTER DRIVE SERIES</h2>
+          <p class="product-subtitle">More than A.I</p>
+          <p class="product-description">
+            Discover the Technology of Tomorrow, for the Best Massage Today.
+            Each Master Drive is built to be ‘different’. Engineered with
+            state-of-the-art technology, indulge in the best massage experience
+            that is unique to each individual user.
+          </p>
+          <button class="product-button">
+            <p>See More</p>
+            <span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2085_101)">
+                  <path
+                    d="M0 10H16.6667"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2085_101">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="product-wrapper product-wrapper-2">
+        <div class="content-container content-container-2">
+          <h2 class="product-title">FOOT SERIES</h2>
+          <span class="product-subtitle">Safe & Caring</span>
+          <p class="product-description product-description-2">
+            Innovative design and adaptive functionality, get total rejuvenation
+            and maximum massage coverage for your entire legs​
+          </p>
+          <button class="product-button">
+            <p>See More</p>
+            <span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2085_101)">
+                  <path
+                    d="M0 10H16.6667"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2085_101">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="image-product image-product-2">
+          <img src="assets/images/product-3.png" alt="product" />
+        </div>
+      </div>
+
+      <div class="product-wrapper">
+        <div class="image-product image-product-3">
+          <img src="assets/images/product-4.png" alt="product" />
+        </div>
+        <div class="content-container content-container-3">
+          <h2 class="product-title">MOBILE SERIES</h2>
+          <p class="product-subtitle">Excite your journey​</p>
+          <p class="product-description product-description-3">
+            Designed specifically to meet the demands of a​ digital and
+            sedentary lifestyle.
+          </p>
+          <button class="product-button">
+            <p>See More</p>
+            <span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2085_101)">
+                  <path
+                    d="M0 10H16.6667"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                    stroke="#222222"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2085_101">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection-section">
+      <h2>Our Collection</h2>
+      <div class="collection-container">
+        <div class="collection-item">
+          <img src="assets/images/collection-1.png" alt="Collection 1" />
+          <div class="overlay">
+            <h3>AI</h3>
+            <p>VIEW ALL COLLECTIONS</p>
+            <button>
+              <p>Discover More</p>
+              <span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_2085_101)">
+                    <path
+                      d="M0 10H16.6667"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2085_101">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="collection-item">
+          <img src="assets/images/collection-2.png" alt="Collection 2" />
+          <div class="overlay">
+            <h3>AI</h3>
+            <p>VIEW ALL COLLECTIONS</p>
+            <button>
+              <p>Discover More</p>
+              <span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_2085_101)">
+                    <path
+                      d="M0 10H16.6667"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2085_101">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="collection-item">
+          <img src="assets/images/collection-2.png" alt="Collection 3" />
+          <div class="overlay">
+            <h3>AI</h3>
+            <p>VIEW ALL COLLECTIONS</p>
+            <button>
+              <p>Discover More</p>
+              <span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_2085_101)">
+                    <path
+                      d="M0 10H16.6667"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.8335 4.16675L16.6668 10.0001L10.8335 15.8334"
+                      stroke="#222222"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2085_101">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- carousel-mobile -->
+      <div id="carouselExample" class="carousel slide carousel-mobile">
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-item-mobile">
+            <img
+              src="assets/images/collection-1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item carousel-item-mobile">
+            <img
+              src="assets/images/collection-2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item carousel-item-mobile">
+            <img
+              src="assets/images/collection-2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev carousel-control-prev-active"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"
+            ><svg
+              width="33"
+              height="16"
+              viewBox="0 0 33 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.589733 8.00001H31.9534M7.55943 1.18182L0.589733 8.00001L7.55943 1.18182ZM0.589733 8.00001L7.55943 14.8182L0.589733 8.00001Z"
+                stroke="#222222"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="carousel-control-next carousel-control-next-active"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <svg
+              width="33"
+              height="16"
+              viewBox="0 0 33 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.589733 8.00001H31.9534M7.55943 1.18182L0.589733 8.00001L7.55943 1.18182ZM0.589733 8.00001L7.55943 14.8182L0.589733 8.00001Z"
+                stroke="#222222"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <div class="footer-collection">
+        <h3>AI</h3>
+        <p>VIEW ALL COLLECTIONS</p>
+      </div>
+    </section>
+
+    <!--  -->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <p>
+            PRODUCTS
+            <svg
+              width="28"
+              height="22"
+              viewBox="0 0 28 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 8.08331L14.1667 13.9166L8.33333 8.08331"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+          <a href="#"> Massage Chairs​</a>
+          <a href="#"> Foot Massager</a>
+          <a href="#"> Sport Series​</a>
+          <a href="#"> Mobile Series</a>
+          <a href="#"> Handy Massage​</a>
+          <a href="#"> Beauty Series​​</a>
+          <a href="#"> Home Series​​</a>
+        </div>
+        <div class="footer-column">
+          <p>
+            SHOP
+            <svg
+              width="28"
+              height="22"
+              viewBox="0 0 28 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 8.08331L14.1667 13.9166L8.33333 8.08331"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+          <a href="#">Our Showroom</a>
+          <a href="#">Shop Online</a>
+
+          <p id="promotion">
+            PROMOTION
+            <svg
+              width="28"
+              height="22"
+              viewBox="0 0 28 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 8.08331L14.1667 13.9166L8.33333 8.08331"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+          <a href="#">Monthly Promo</a>
+          <a href="#">Experiential Program​</a>
+        </div>
+        <div class="footer-column">
+          <p>
+            FAQ
+            <svg
+              width="28"
+              height="22"
+              viewBox="0 0 28 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 8.08331L14.1667 13.9166L8.33333 8.08331"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+          <a href="#">Payments</a>
+          <a href="#">Terms & Conditions​</a>
+          <a href="#">Privacy Policy​</a>
+          <a href="#">Trade In Policy​</a>
+        </div>
+        <div class="footer-column footer-img">
+          <img src="assets/images/access.png" />
+        </div>
+      </div>
+
+      <div class="footer-note">
+        <p>Copyright © 2022 Ogawa. All right reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
